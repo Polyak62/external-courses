@@ -1,16 +1,19 @@
 function getDivideTwo(array) {
-    var result = [0, 0, 0];
+    var numberEven=0;
+    var numbOdd=0;
+    var numbZero=0;
     for (var i = 0; i < array.length; ++i) {
         if (array[i] == 0) {
-            result[2]++;
+            numbZero++;
         } else {
             if (array [i] % 2 == 0) {
-                result[0]++;
+                numberEven++;
             } else {
-                result[1]++
+                numbOdd++;
             }
         }
     }
+    var result=[numberEven,numbOdd,numbZero];
     return result;
 }
 
