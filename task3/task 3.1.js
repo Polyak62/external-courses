@@ -1,6 +1,6 @@
-var headTolik={};
-headTolik.mindPresent=true;
-headTolik.power='много';
-headTolik.mass=70;
-delete headTolik.mass;
-console.log (headTolik);
+var head={};
+head.mindPresent=true;
+head.size='большая';
+head.mass=70;
+delete headT.mass;
+console.log (head);
