@@ -1,13 +1,5 @@
-function deleteSpace(string) {
-   return string.replace(' ','');
+function trim(string) {
+    return string.slice(1,--string.length);
 }
-
-var str=" task task";
-console.log(deleteSpace(str));
-
-
-String.prototype.trim=function(string) {
-   return this.trimRight().trimLeft();
-}
-var str=" task task";
-console.log(deleteSpace(str));
+var s = " рязань ";
+console.log(trim(s));
