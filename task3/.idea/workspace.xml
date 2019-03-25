@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b854e61-5739-4147-87a0-04b3540ab9e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../task 4/task 4.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task 4/task 4.12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task 4/task 4.9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task 3.6 new.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task 4/task 4.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task 4/task 4.11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task 4/task 4.11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task 4/task 4.7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task 4/task 4.7.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task 3.6.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task 3.6 new.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -102,6 +114,7 @@
         <option value="$PROJECT_DIR$/task 3.6.js" />
         <option value="$PROJECT_DIR$/task 3.3.js" />
         <option value="$PROJECT_DIR$/task 3.5 new.js" />
+        <option value="$PROJECT_DIR$/task 3.6 new.js" />
       </list>
     </option>
   </component>
@@ -117,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,7 +142,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,11 +179,12 @@
       <workItem from="1553089030852" duration="636000" />
       <workItem from="1553097512735" duration="1172000" />
       <workItem from="1553101565009" duration="412000" />
+      <workItem from="1553534638271" duration="584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11482000" />
+    <option name="totallyTimeSpent" value="12066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -244,7 +258,14 @@
     <entry file="file://$PROJECT_DIR$/task 3.6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task 3.6 new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
