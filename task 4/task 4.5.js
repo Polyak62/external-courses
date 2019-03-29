@@ -1,4 +1,6 @@
-function seachString(regExp, str){
-      return (str.search(regExp) != -1);
+function seachString(str,substring){
+       return str.indexOf(substring)!= -1
 }
-console.log(seachSring(/ryazan/, "ryazan"));
+var s1='Москва слезам не верит';
+var s2="слезам";
+console.log(seachString(s1,s2));

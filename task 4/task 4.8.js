@@ -8,6 +8,7 @@ function camelCase(string) {
 
 function CapsStr(string) {
     var re=string[0];
+    string[0].toUpperCase();
     return string.replace(re,string[0].toUpperCase());
 }
 
