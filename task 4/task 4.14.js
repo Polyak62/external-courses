@@ -1,5 +1,5 @@
 function getRandom(min, max) {
-    return Math.random() * (max - min) + min ;
+    return Math.floor(Math.random() * ((max+1) - min)) + min;
 }
 
 console.log(getRandom(4, 8));
