@@ -1,29 +1,38 @@
 var Calculator = {
     result: 0,
     add: function (a) {
-        this.result=this.result + a;
-        return this.add.bind(Calculator);
+        if (a!=undefined){
+            this.result=this.result + a;
+        }
+        return this.add.bind(this);
     },
     subtract: function (a) {
-        this.result=this.result - a;
-        return this.subtract.bind(Calculator);
+        if (a!=undefined){
+            this.result=this.result - a;
+        }
+        return this.subtract.bind(this);
     },
     divide: function (a) {
-        this.result=this.result / a;
-        return this.divide.bind(Calculator);
+        if (a!=undefined){
+            this.result=this.result / a;
+        }
+        return this.divide.bind(this);
     },
     multiply: function (a) {
-        this.result=this.result * a
-        return this.multiply.bind(Calculator);
+        if (a!=undefined){
+            this.result=this.result * a;
+        }
+        return this.multiply.bind(this);
     },
     getResult: function () {
         return this.result
     },
     reset: function () {
-        result = 0
+        this.result = 0
     }
 };
 console.log(Calculator.reset());
+
 console.log(Calculator.getResult());
 Calculator.add(4)(1);
 console.log(Calculator.getResult());
