@@ -3,14 +3,14 @@ function camelCase(string) {
     for (var i=0; i<arr.length; ++i){
         arr[i]=(CapsStr(arr[i]));
     }
+    arr[0]=arr[0].toLowerCase();
     return arr.join("");
 }
 
 function CapsStr(string) {
     var re=string[0];
-    string[0].toUpperCase();
     return string.replace(re,string[0].toUpperCase());
 }
 
-var s="рязань москва самара";
+var s="Рязань москва самара";
 console.log(camelCase(s));
