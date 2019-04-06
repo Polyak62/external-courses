@@ -1,0 +1,31 @@
+#one{
+     background-color:blue;
+     padding: 5%;
+    font-family: Gill sans nova;
+    color:pink;
+ }
+#two{
+    background-color: #00FF00;
+    margin: 7vw;
+    font-family:fantasy;
+}
+#three{
+    background-color:rgb(255,255,0)
+
+}
+#four{
+    background-image: url(internet.png);
+    width: 30vh;
+    height: 220px;
+    float: right;
+}
+#five{
+    background-image: url(internet.png);
+    width: 240px;
+    height: 220px;
+    float: left;
+}
+@font-face {
+    font-family: Gill sans nova;
+    src: url(16108.ttf);
+}

@@ -1,10 +1,11 @@
 var Calculator = {
     result: 0,
-    add: function (a) {
+
+    add: function addModul(){}(function (a) {
         if (a!=undefined){
-            this.result=this.result + a;
-        }
-        return this.add.bind(this);
+            result=result + a;
+        })
+        return add;
     },
     subtract: function (a) {
         if (a!=undefined){

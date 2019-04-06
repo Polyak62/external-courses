@@ -1,0 +1,32 @@
+#one{
+    width: 270px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+#two{
+    width: 200px; height: 120px;
+    background: #e3e3e3;
+    position: relative;
+    border: 10px solid black;
+}
+#three{
+    outline-style: dashed;
+    outline-width: 9px;
+    outline-offset: 1px;
+    outline-color: yellowgreen;
+}
+#four{
+    border: 2px solid #FF2299;
+    border-radius: 10px;
+    border-top-right-radius: 70px 50px;
+    border-bottom-left-radius: 30px 90px;
+    padding:3px;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+#five{
+    border: 2px solid blue;
+    border-radius: 30px;
+}
