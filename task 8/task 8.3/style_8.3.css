@@ -5,10 +5,9 @@
     margin: 0;
 }
 #two{
-    width: 200px; height: 120px;
-    background: #e3e3e3;
-    position: relative;
-    border: 10px solid black;
+    width: 500px;
+    height: 90px;
+    box-shadow: 0 0 30px red;
 }
 #three{
     outline-style: dashed;
@@ -16,17 +15,31 @@
     outline-offset: 1px;
     outline-color: yellowgreen;
 }
-#four{
-    border: 2px solid #FF2299;
-    border-radius: 10px;
-    border-top-right-radius: 70px 50px;
-    border-bottom-left-radius: 30px 90px;
-    padding:3px;
-    width: 30%;
-    margin: 20px;
-    text-align: center;
+#fourfull{
+    background-color: blue;
+    width: 550px;
+    height: 150px;
+    position: absolute;
 }
+#four{
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
 #five{
-    border: 2px solid blue;
-    border-radius: 30px;
+    position: relative;
+    background-color: black;
+
+    width: 200px;
+    height: 150px;
+
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+    font-family: sans-serif;
 }
