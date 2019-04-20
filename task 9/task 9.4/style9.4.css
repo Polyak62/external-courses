@@ -1,0 +1,48 @@
+#one {
+    background: #6e000b;
+    width: 50%;
+    height: 200px;
+    box-shadow: 10px 10px 0 #a0130f, 15px 15px 0 #ff413c;
+}
+ #two {
+     margin: 50px;
+     background: #134400;
+     width: 50%;
+     height: 200px;
+     position: relative;
+}
+#two:after, #two:before {
+     content: '';
+     position: absolute;
+     width: 100%; height: 100%;
+     z-index: -1;
+}
+#two:after {
+     background: #219c0a;
+     top: 5px; left: 5px;
+}
+#two:before {
+     background: #71ff50;
+     top: 10px; left: 10px;
+}
+.three {
+     height: 200px;
+     width: 500px;
+ }
+
+#three {
+    background: #918ed0;
+    position: relative;
+}
+
+#four {
+    background: #5858af;
+    position: absolute;
+    bottom: 5px;
+}
+
+#five {
+    background: #0d0db4;
+    position: absolute;
+    bottom: 5px;
+}
