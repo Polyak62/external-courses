@@ -8,6 +8,7 @@
     height: 65px;
     border-radius: 18px;
     border: 2px solid rgb(102,102,102);
+    background: radial-gradient(ellipse 222px 65px, rgb(168,168,168) 0%, #ffffff 100%);
 }
 @font-face {
     font-family: cska;
@@ -23,7 +24,8 @@
     border-radius: 15px;
     font-size: 21pt;
     color: rgb(85,85,85);
-    text-shadow: 2px 2px 2px rgb(85,85,85), 1px 0 1em rgb(136,136,136);
+    text-shadow: 2px 2px 3px rgba(85,85,85,0.4);
+    background: linear-gradient(360deg,rgb(176,176,176),rgb(227,227,227));
 }
 .fa-star{
     color: rgb(136,136,136);
