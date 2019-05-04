@@ -1,0 +1,36 @@
+.ball {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 25%;
+    animation-name: gif;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    background: radial-gradient(circle at 0% 100%, #ff0c09, #000000);
+}
+@-webkit-keyframes gif {
+   0%{
+       border-radius: 50%;
+       background: radial-gradient(circle at 0% 100%, #ff0c09, #000000);
+   }
+15%{
+    border-radius: 0%;
+}
+    30%{
+        background: radial-gradient(circle at 0% 100%, #000000, #ff0c09);
+    }
+    40%{
+    transform: scale(2,2) skew(30grad,10grad);
+    }
+    80%{
+        transform: rotate(180deg);
+    }
+    95%{
+        background: radial-gradient(circle at 0% 100%, #ff0c09, #000000);
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
