@@ -1,0 +1,20 @@
+.fa{
+    color: grey;
+}
+.fa:hover ~ .fa {
+    color: yellow;
+}
+.fa:hover{
+    color: yellow;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.activ{
+    color:yellow;
+}
+.activ ~ .fa{
+    color:yellow;
+}

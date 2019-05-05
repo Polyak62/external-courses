@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>task</title>
+    <style>
+        ul {
+            width: 180px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+        }
+        li ul {
+            position: absolute;
+            display: none;
+            margin-left: 165px;
+            margin-top: -2em;
+        }
+        li a {
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            color: #666;
+            border: 3px solid #ccc;
+            background-color: #f0f0f0;
+        }
+        li a:hover {
+            color: #ffe;
+            background-color: #5488af;
+            cursor: pointer;
+        }
+        .vis{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<ul class="container">
+    <li class="user"><a>Nagibator228</a>
+        <ul>
+            <li><input type="text" placeholder="Имя пользователя"></li>
+            <li><input type="email" placeholder="Email"></li>
+            <li><a href="linkr.html">Sign in</a></li>
+        </ul>
+    </li>
+    <li class="user"><a>Killer2009</a>
+        <ul>
+            <li><input type="text" placeholder="Имя пользователя"></li>
+            <li><input type="email" placeholder="Email"></li>
+            <li><a href="linkr.html">Sign in</a></li>
+        </ul>
+    </li>
+    <li class="user"><a>Camper</a>
+        <ul>
+            <li><input type="text" placeholder="Имя пользователя"></li>
+            <li><input type="email" placeholder="Email"></li>
+            <li><a href="linkr.html">Sign in</a></li>
+        </ul>
+    </li>
+</ul>
+<script>
+    var user = document.getElementsByClassName("user");
+    for (let st of user){
+        st.onclick = function(event) {
+            for (let sd of user){
+                sd.children[1].classList.remove("vis");
+            }
+            event.stopPropagation();
+            event.preventDefault();
+            st.children[1].classList.add("vis");
+        }
+    }
+    document.onclick = function () {
+        for (let zd of user){
+            zd.children[1].classList.remove("vis");
+        }
+    };
+    document.onclick = function () {
+        for (let zd of user){
+            zd.children[1].classList.remove("vis");
+        }
+    }
+</script>
+</body>
+</html>

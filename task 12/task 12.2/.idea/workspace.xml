@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16bef463-e584-4cbd-aa18-c0926e187599" name="Default Changelist" comment="" />
+    <list default="true" id="1ebbef52-ae8e-4204-8857-9f4823219962" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task 12.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task 11/task 11.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../task 11/task 11.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task 11/task 11.2/balls/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../task 11/task 11.2/balls/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,25 +18,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task 11.1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style_11.1.css">
+        <entry file="file://$PROJECT_DIR$/task 12.2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="144" selection-start-line="14" selection-start-column="144" selection-end-line="14" selection-end-column="144" />
+            <state relative-caret-position="581">
+              <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -39,14 +43,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/task 11.1.html" />
-        <option value="$PROJECT_DIR$/style_11.1.css" />
+        <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/style_12.2.css" />
+        <option value="$PROJECT_DIR$/task 12.2.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-56" />
-    <option name="y" value="189" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="38" />
+    <option name="y" value="4" />
     <option name="width" value="1260" />
     <option name="height" value="443" />
   </component>
@@ -60,8 +65,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="task 11.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task 11.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task 12.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task 12.2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -71,8 +76,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../task 12/task 12.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task 12.3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -93,24 +100,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16bef463-e584-4cbd-aa18-c0926e187599" name="Default Changelist" comment="" />
-      <created>1556970326252</created>
+      <changelist id="1ebbef52-ae8e-4204-8857-9f4823219962" name="Default Changelist" comment="" />
+      <created>1557044302122</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556970326252</updated>
-      <workItem from="1556970327811" duration="6947000" />
-      <workItem from="1557042355492" duration="371000" />
+      <updated>1557044302122</updated>
+      <workItem from="1557044303492" duration="698000" />
+      <workItem from="1557052641797" duration="8943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7318000" />
+    <option name="totallyTimeSpent" value="9641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="189" width="1260" height="443" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24244833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -133,17 +139,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task 11.1.html">
+    <entry file="file://$PROJECT_DIR$/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <caret selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style_11.1.css">
+    <entry file="file://$PROJECT_DIR$/style_12.2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task 12.2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="144" selection-start-line="14" selection-start-column="144" selection-end-line="14" selection-end-column="144" />
+        <state relative-caret-position="581">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
         </state>
       </provider>
     </entry>
